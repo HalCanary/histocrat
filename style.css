@@ -1,0 +1,18 @@
+body {
+  margin: 0 auto;
+  max-width: 35em;
+  padding: 0 8px 6ex;
+}
+p{text-indent:2em;margin-top:0;margin-bottom:0}
+p:first-of-type{text-indent:0}
+hr + p, ul + p, ol + p, table + p, blockquote + p{text-indent:0}
+.title, .subtitle, .author{text-align:center;text-indent:0}
+.title{margin:2em 0 0.25em}
+.subtitle{font-style:italic;font-size:1.15em;margin-bottom:1.5em}
+.author{font-variant:small-caps;letter-spacing:0.05em;margin-bottom:2em}
+hr{border:0;height:auto;margin:2.5ex auto;text-align:center;color:inherit;overflow:visible}
+hr::after{content:"*\2003*\2003*";line-height:1}
+table {border-collapse: collapse;max-width:100%;margin:1ex auto;}
+th, td {border: 1px solid; padding: 0.5ex 0.5em;vertical-align: top;}
+.endmark{font-size:0.8em;margin-left:0.4em}
+h2{margin-top:3em;margin-bottom:1em}
